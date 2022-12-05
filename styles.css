@@ -1,12 +1,9 @@
-body {
-100vh
-}
-
 
 .top {
     background-color: #1f2937;
     color: white;
     padding-bottom: 50px;
+    
 }
 
 .header {
@@ -43,14 +40,30 @@ body {
 font-size: 36px;    
 font-weight: bolder;
 color: #1f2937;
+text-align: center;
+}
+
+img.blue {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    color: grey
 }
 
 .mid2 {
     background-color: #e5e7eb;
     padding: 100px;
+    text-align: center;
 }
 .call {
     background-color: #3882f6;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 button{
     color: white;
@@ -67,7 +80,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 1rem; 
-padding-right: 5px; 
+    padding-right: 5px; 
 }
 a {
     text-decoration: none;
